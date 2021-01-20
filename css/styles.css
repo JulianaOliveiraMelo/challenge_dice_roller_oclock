@@ -1,0 +1,41 @@
+body {
+  background-color: #f39c12;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#player {
+  background-color: #f39c12;
+}
+
+#dealer {
+  background-color: #e67e22;
+}
+
+#player3 {
+  background-color: #e67e82;
+}
+
+#player4 {
+  background-color: #e6ee82;
+}
+
+.board {
+  min-height: 50vh;
+  width:50%;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.dice {
+  background-image: url('../images/dice-sprite.png');
+  width: 100px;
+  height: 100px;
+  margin: 1em;
+}

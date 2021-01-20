@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Roll</title>
+</head>
+<body>
+    <div id="welcome">
+        <form id="dice-form">
+            <!-- il va falloir écouter l'événement "change" -->
+            <input type="range" id="dice-number-input" min="1" max="20" value="3">
+            <output id="dice-number">3</output>
+            <button id="play" type="submit">Jouer</button>
+        </form>
+    </div>
+    <div id="app">
+        <div class="board" id="player"></div>
+        <div class="board" id="dealer"></div>
+        <div class="board" id="player3"></div>
+        <div class="board" id="player4"></div>
+    </div>
+    <script src="../js/app.js"></script>
+</body>
+</html>
